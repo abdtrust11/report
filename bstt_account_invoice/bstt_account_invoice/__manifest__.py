@@ -5,7 +5,6 @@
                "amount",
     "version": "14.0.1.0.0",
     "category": "Invoicing",
-    "website": "https://bstt.com.sa/",
     "author": "BSTT",
     "license": "AGPL-3",
     "application": False,
@@ -13,11 +12,11 @@
     "depends": ['base', 'web', 'l10n_gcc_invoice', 'l10n_sa'],
     "data": [
         'security/account_security.xml',
-        'views/assets.xml',
+        #'views/assets.xml',
         'views/company.xml',
         'views/partner.xml',
         'reports/invoice_report.xml',
-        'reports/base_document_layout.xml',
+        #'reports/base_document_layout.xml',
     ],
     'qweb': [
 
